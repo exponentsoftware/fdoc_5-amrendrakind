@@ -21,12 +21,13 @@ const fetchData = async () => {
         } })
 
         var temp = [];
-        for (var key in lang)
+        for (var key in lang)                       // Sorting of data by value
             temp.push([key, lang[key]]);
 
         temp.sort(function (a, b) {
             return a[1] < b[1] ? 1 : a[1] > b[1] ? -1 : 0
         });
+    
     let country=[];
     for(let i=0;i<15;i++){
         country.push({language:temp[i][0], country:temp[i][1]})

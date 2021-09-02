@@ -19,6 +19,7 @@ const fetchData = async () => {
         else {
             lang[country.languages[i].name] += 1}
         } })
+    console.log(lang)
     console.log("There are total",Object.keys(lang).length, "languages in all countries")
 }
 fetchData()
