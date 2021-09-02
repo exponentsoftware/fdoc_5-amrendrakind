@@ -1,4 +1,4 @@
-Explain the following questions in your own words
+ï»¿Explain the following questions in your own words
 
 What is the difference between forEach, map, filter and reduce ? 
 Explain these using your own words 
@@ -82,7 +82,7 @@ If you declare a function in the global scope using function declaration, The sc
 2. Function declarations are affected by hoisting.
 sayHello()  // function calling
 function sayHello(){
-     console.log(“Hello”);
+     console.log(ï¿½Helloï¿½);
 }
 You can call a function before you declare it. because of hoisting.
 
@@ -109,7 +109,7 @@ user.gfg2();
 
 Arguments objects are not available in arrow functions, but are available in regular functions.
 
-Regular functions created using function declarations or expressions are ‘constructible’ and ‘callable’. Since regular functions are constructible, they can be called using the ‘new’ keyword. However, the arrow functions are only ‘callable’ and not constructible. Thus, we will get a run-time error on trying to construct a non-constructible arrow functions using the new keyword.
+Regular functions created using function declarations or expressions are ï¿½constructibleï¿½ and ï¿½callableï¿½. Since regular functions are constructible, they can be called using the ï¿½newï¿½ keyword. However, the arrow functions are only ï¿½callableï¿½ and not constructiblefetchhus, we will get a run-time error on trying to construct a non-constructible arrow functions using the new keyword.
 
 Example using regular function:-
 
